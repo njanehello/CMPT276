@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head> 
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="calculator.css" type="text/css" media="all">
+			<title>Grade Calculator for CMPT 276</title>
+	</head>
+	<body>
+			<div id="header"></div> 
+			<div id="background"> </div> 
+			<div id="side"></div>
+			<form method="post" action="process.php" id="calculatorForm">
+					<h1>Grade Calculator</h1>
+					<script type="text/javascript" src="calculator.js" defer> </script>
+					<div id="calculatorRegion">
+						<table id = "calculatorTable" style="width:100%">
+								<h2> Activites</h2>
+								<p>Give grades to the numeric activities:</p>
+								<tr>
+										<th>Name</th>
+										<th>Short Name</th>
+										<th>Weight</th>
+										<th>Grade</th>
+										<th>Percent</th>
+								</tr>
+								<tr>
+										<td>Activity 1</td>
+										<td>A1</td>
+										<td>
+											<input class="weightInput1" type = "text" id = "Weight1"/>
+										</td>
+										<td>
+											<input class="numberatorInput1" type = "text" id = "numeratorValue1"/> 
+											/ <div id="division"></div>
+											<input class="denominatorInput1" type = "text" id = "denominatorValue1"/>
+										</td>
+										<td> 
+											<p id="percent1"> </p>
+										</td>
+								</tr>
+								<tr>
+										<td>Activity 2</td>
+										<td>A2</td>
+										<td>
+											<input class="weightInput2"  type = "text" id = "Weight2"/>
+										</td>
+										<td>
+											<input class="numberatorInput2" type = "text" id = "numeratorValue2"/> 
+											/ <div id="division"></div> 
+											<input  class="denominatorInput2" type = "text" id = "denominatorValue2"/>
+										</td>
+										<td> 
+													<p id="percent2"> </p>
+										</td>
+								</tr>
+								<tr>
+										<td>Activity 3</td>
+										<td>A3</td>
+										<td>
+											<input class="weightInput3" type = "text" id = "Weight3"/>
+										</td>
+										<td>
+											<input class="numberatorInput3" type = "text" id = "numeratorValue3"/> 
+											/ <div id="division"></div>
+											<input class="denominatorInput3" type = "text" id = "denominatorValue3"/>
+										</td>
+										<td> 
+													<p id="percent3"> </p>
+										</td>
+								</tr>
+								<tr>
+										<td>Activity 4</td>
+										<td>A4</td>
+										<td>
+											<input class="weightInput4" type = "text" id = "Weight4"/>
+										</td>
+										<td>
+												<input class="numberatorInput4" type = "text" id = "numeratorValue4"/> 
+												/ <div id="division"></div>
+												<input class="denominatorInput4" type = "text" id = "denominatorValue4"/>
+										</td>
+										<td> 
+													<p id="percent4"> </p>
+										</td>
+								</tr>
+						</table>
+
+						<h3> Result </h3>
+								<p id="finalResult"> </p>
+						<div id = "buttonArea" align = "right">
+								<button id = "weightButton" type = "button" form = "form1" > WEIGHTED </button>
+								<button id = "meanButton" type = "button"> MEAN </button>
+						</div>
+						</div>
+						<div id="footer"></div>
+		</form>		
+		<div id="bottom"></div>
+</body>
+</html>
