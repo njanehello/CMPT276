@@ -1,124 +1,101 @@
+body{
+  background-color: #9b0404;
+  padding-left: 10px;
+}
 
 
-h1{
-	background-color: white;
-	text-align: left;
-	padding: 10px;
+.whitebody{
+background: #fcfafa;
+
+padding-left: 15px;
+padding-right: 200px;
+padding-top: 35px;
+padding-bottom: 20px;
+}
+
+.blackbody{
+background-color: #3d3935;
+
+padding-top: 15px;
+padding-bottom: 25px;
+
+}
+
+.greybody{
+background-color: #e9eff1; 
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 70px;
 }
 
 p{
-	padding: 10px;
-}
-#header{
-  width: 90%;
-  height: 40px;
-  background-color: rgb(52, 53, 53);
-  margin: -1em 3em -2em 3em;
+padding: 10px;
 }
 
 p {
-  font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
+font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
 }
 
 h2 {
-  color: #b30000;
-  text-align: left;
-  padding: 10px;
+color: #b30000;
+text-align: left;
+padding: 10px;
 }
-form {
-   /*background-color: #e1eaea; */
-   width: 900px;
-   height: 400px;
-   margin: 100px;
-   position: relative;
-   padding-top: -10px;
 
-}
 
 table, th, td {
-  border-collapse: collapse;
-  border-radius: 4px;
-  border: 1px solid #b1aeae;
-  
-  table-layout: fixed;
-  /*background-color: #e1eaea;*/
-  padding: 0px;
-  margin: 2px 0;
-  
+border-collapse: collapse;
+border-radius: 4px;
+border: 1px solid #b1aeae;
+
+table-layout: fixed;
+/*background-color: #e1eaea;*/
+padding: 0px;
+margin: 2px 0;
+
 }
 
 td{
-  width: 30% ;
-  padding: 12px;
+width: 30% ;
+padding: 12px;
 }
 th {
-  text-align: left;
-  width: 20% ;
-  padding: 9px;
-  background-color: #d9d9d9;
-  height: 5px;
-  
+text-align: left;
+width: 20% ;
+padding: 9px;
+background-color: #d9d9d9;
+height: 5px;
+
 }
 
 input{
-	padding: 13px;
-	width: 70% ;
-  	margin: 3px 0;
-    box-sizing: border-box;
-    border-radius: 3px;
-  border: 1px solid #c4c4c4;
+padding: 13px;
+width: 70% ;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+border: 1px solid #c4c4c4;
 
 }
 
 h3 {
-  color: #b30000;
-  text-align: left;
-  padding: 10px;
- 
+color: #b30000;
+text-align: left;
+padding: 10px;
+
 
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #b30000;
-  color: white;
-  font-size: 14px;
-  margin: 4px;
+padding: 10px 20px;
+background-color: #b30000;
+color: white;
+font-size: 14px;
+margin: 4px;
 
 }
 
 #background {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 5%;
-    height: 100%;
-    background-color: #9b0404;
-    
+  background-color: #9b0404;   
 }
 
-#buttonArea{
-  padding: 0px;
-}
-
-#calculatorRegion{
-  background-color: #ecf3f3;
-  border: 1px solid rgb(207, 233, 235);
-  border-collapse: collapse;
-  padding: 12px;
-  margin: 0em 0em 0em 0em;
-
-}
-
-#footer {
-  width: 135%;
-  height: 3em;
-  background-color: rgb(52, 53, 53);
-  margin: 0em -2em 5em -2.5em;
-}
-
-#bottom{
-  background-color: #9b0404;
- margin: 0em 2em 0em 2em;
-}

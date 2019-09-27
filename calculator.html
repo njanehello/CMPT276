@@ -7,11 +7,17 @@
 			<title>Grade Calculator for CMPT 276</title>
 	</head>
 	<body>
-			<div id="header"></div> 
+		<div class="blackbody">
+		<div class="whitebody">
+		<div id="header"></div> 
+		<h1>Grade Calculator</h1>
+		<div class="greybody">
+
+
 			<div id="background"> </div> 
 			<div id="side"></div>
 			<form method="post" action="process.php" id="calculatorForm">
-					<h1>Grade Calculator</h1>
+
 					<script type="text/javascript" src="calculator.js" defer> </script>
 					<div id="calculatorRegion">
 						<table id = "calculatorTable" style="width:100%">
@@ -87,14 +93,19 @@
 						</table>
 
 						<h3> Result </h3>
-								<p id="finalResult"> </p>
+								<p id="result">  </p>
 						<div id = "buttonArea" align = "right">
-								<button id = "weightButton" type = "button" form = "form1" > WEIGHTED </button>
-								<button id = "meanButton" type = "button"> MEAN </button>
+								<button class = "weighted" id = "weightButton" type = "button" form = "form1" > WEIGHTED </button>
+								<button class = "mean" id = "meanButton" type = "button"> MEAN </button>
 						</div>
 						</div>
 						<div id="footer"></div>
 		</form>		
 		<div id="bottom"></div>
+</div>
+</div>
+</div>
+	
 </body>
+
 </html>
