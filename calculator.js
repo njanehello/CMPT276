@@ -1,4 +1,5 @@
 
+
 // Variable declaration and initialization 
 
 var totalWeight = 0.0;
@@ -193,8 +194,4 @@ function meanPercentCalculation(){
     document.querySelector("#result").innerHTML = percentCalculation(result, counter).toFixed(2) + "%";
 }
 
-
 document.querySelector("#meanButton").addEventListener("click", meanPercentCalculation);
-
-
-

@@ -114,3 +114,25 @@ font-weight: bold;
 h1{
   font: normal 210% Arial;
 }
+
+#popup{
+  padding: 9px 20px;
+  background-color: #b30000;
+  color: white;
+  font-size: 16px;
+  margin: 4px;
+  border-radius: 4px;
+  width: 40%;
+  
+}
+
+#popup2{
+  padding: 9px 10px;
+  background-color: #b30000;
+  color: white;
+  font-size: 16px;
+  margin: 4px;
+  border-radius: 4px;
+  width: 40%;
+
+}
