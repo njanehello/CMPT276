@@ -1,8 +1,14 @@
 body{
-  background-color: #9b0404;
-  padding-left: 10px;
+  background-color: #860315;
+  padding-left: 50px;
+  padding-right: 50px; 
+  padding-bottom: 150px;
+  margin-top: 0;
 }
 
+form{
+  padding: 50px 10px;
+}
 
 .whitebody{
 background: #fcfafa;
@@ -14,10 +20,10 @@ padding-bottom: 20px;
 }
 
 .blackbody{
-background-color: #3d3935;
-
-padding-top: 15px;
-padding-bottom: 25px;
+background-color: #363636;
+padding-top: 30px;
+padding-bottom: 45px;
+margin-top: 0;
 
 }
 
@@ -25,7 +31,8 @@ padding-bottom: 25px;
 background-color: #e9eff1; 
 padding-left: 10px;
 padding-right: 10px;
-padding-bottom: 70px;
+height: 1000px;
+
 }
 
 p{
@@ -50,7 +57,6 @@ border: 1px solid #b1aeae;
 
 table-layout: fixed;
 /*background-color: #e1eaea;*/
-padding: 0px;
 margin: 2px 0;
 
 }
@@ -70,32 +76,41 @@ height: 5px;
 
 input{
 padding: 13px;
-width: 70% ;
-  margin: 3px 0;
+width: 60% ;
+  margin: 5px 0px 3px 0px;
   box-sizing: border-box;
   border-radius: 3px;
 border: 1px solid #c4c4c4;
-
 }
 
 h3 {
 color: #b30000;
 text-align: left;
 padding: 10px;
-
-
 }
 
 button {
-padding: 10px 20px;
+padding: 9px 20px;
 background-color: #b30000;
 color: white;
-font-size: 14px;
+font-size: 16px;
 margin: 4px;
+border-radius: 4px;
 
 }
 
 #background {
-  background-color: #9b0404;   
+  background-color: #9b0404;  
 }
 
+#titleActivity{
+  font: normal 150% Cambria,Georgia,"Times New Roman",Times,serif;
+  font-weight: bold;
+}
+#titleResult{
+font: normal 140% Cambria,Georgia,"Times New Roman",Times,serif;
+font-weight: bold;
+}
+h1{
+  font: normal 210% Arial;
+}

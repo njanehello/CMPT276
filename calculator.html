@@ -21,7 +21,7 @@
 					<script type="text/javascript" src="calculator.js" defer> </script>
 					<div id="calculatorRegion">
 						<table id = "calculatorTable" style="width:100%">
-								<h2> Activites</h2>
+								<h2 id= "titleActivity"> Activites</h2>
 								<p>Give grades to the numeric activities:</p>
 								<tr>
 										<th>Name</th>
@@ -61,7 +61,7 @@
 										</td>
 								</tr>
 								<tr>
-										<td>Activity 3</td>
+										<td >Activity 3</td>
 										<td>A3</td>
 										<td>
 											<input class="weightInput3" type = "text" id = "Weight3"/>
@@ -92,16 +92,20 @@
 								</tr>
 						</table>
 
-						<h3> Result </h3>
+						<h3 id = "titleResult"> Result </h3>
 								<p id="result">  </p>
 						<div id = "buttonArea" align = "right">
 								<button class = "weighted" id = "weightButton" type = "button" form = "form1" > WEIGHTED </button>
 								<button class = "mean" id = "meanButton" type = "button"> MEAN </button>
 						</div>
+						<div id = "newfeature" align = "center">
+							<button class = "passorfail" id = "CLICKME" type = "button"> CLICK ME! </button>
+						</div>
 						</div>
 						<div id="footer"></div>
+						<br> <br>
 		</form>		
-		<div id="bottom"></div>
+		<div id="bottom" ></div>
 </div>
 </div>
 </div>
