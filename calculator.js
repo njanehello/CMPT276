@@ -1,6 +1,5 @@
 
-
-// Variable declaration and initialization 
+// Declaring Weight variables 
 
 var totalWeight = 0.0;
 var weight1 = 0.0;
@@ -9,8 +8,15 @@ var weight3 = 0.0;
 var weight4 = 0.0;
 var arrayWeightinputs = [0.0,0.0,0.0,0.0];
 
+//Parse input weight values!
+function checkInputWeights() {
+    weight1 = parseFloat(document.querySelector("#Weight1").value);
+    weight2 = parseFloat(document.querySelector("#Weight2").value);
+    weight3 = parseFloat(document.querySelector("#Weight3").value);
+    weight4 = parseFloat(document.querySelector("#Weight4").value);
+}
 
-//Variables input values 
+// Declaring input variables 
 var inputNum1 = 0.0;
 var inputNum2 = 0.0;
 var inputNum3 = 0.0;
@@ -19,24 +25,16 @@ var inputDen1 = 0.0;
 var inputDen2 = 0.0;
 var inputDen3 = 0.0;
 var inputDen4 = 0.0;
+
+// Calculated grades to be presented
 var grade1 = 0.0;
 var grade2 = 0.0;
 var grade3 = 0.0;
 var grade4 = 0.0;
 var arrayInputs= [0.0,0.0,0.0,0.0];
 
+// Parse input numerator and denominator values!
 
-//
-function checkInputWeights() {
-    weight1 = parseFloat(document.querySelector("#Weight1").value);
-    weight2 = parseFloat(document.querySelector("#Weight2").value);
-    weight3 = parseFloat(document.querySelector("#Weight3").value);
-    weight4 = parseFloat(document.querySelector("#Weight4").value);
-}
-
-/*
-Functions to parse grade inputs and convert to float
-*/
 function checkInputA1() {
     inputNum1 = parseFloat(document.querySelector("#numeratorValue1").value);
     inputDen1 = parseFloat(document.querySelector("#denominatorValue1").value);
@@ -62,6 +60,7 @@ function percentConversion(numValue) {
     return percentConvert;
 }
 
+// Function to make sure no grades are divided by 0 and to calculate percentage
 function percentCalculation(inputNumerator, inputDenominator){
     if(inputDenominator == 0 || !isFinite(inputDenominator)) {
         percentage = 0;
@@ -167,6 +166,7 @@ function weightPercent(){
 }
 document.querySelector("#weightButton").addEventListener("click", weightPercent);
 
+//Function to calculate and display the mean percentage
 function meanPercentCalculation(){
     var result = 0.0;
     var counter = 0.0;
